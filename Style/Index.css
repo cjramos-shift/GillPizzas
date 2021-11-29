@@ -1,0 +1,84 @@
+body {
+    background-color: #D3D3D3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#esquerda {
+    padding-right: 1em;
+}
+
+#direita {
+    padding-right: 1em;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#spTitulo {
+    font-size: 115px;
+    letter-spacing: 8px;
+    color: white;
+    vertical-align: middle;
+}
+
+#hTitulo {
+    font-size: 35px;
+    letter-spacing: 8px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: underline;
+}
+
+#dvTitulo {
+    height: 650px;
+    width: 100%;
+    vertical-align: middle;
+    background-image: url('/Images/Foto\ \(1\).png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 5em;
+}
+
+#dvTitulo2 {
+    vertical-align: middle;
+}
+
+#dvMinhaHistoria {
+    background-color: rgb(34, 34, 34);
+    height: 8px;
+}
+
+#dvMinhaHistoriaHeader {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 350px;
+    height: 50px;
+}
+
+/* #diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: red;
+    position: relative;
+    top: -50px;
+}
+
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: red;
+} */
+
+.whiteclass {
+    color: white;
+}
